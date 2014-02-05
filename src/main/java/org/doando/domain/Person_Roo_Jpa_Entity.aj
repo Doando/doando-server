@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Version;
+import org.doando.domain.Person;
 
 privileged aspect Person_Roo_Jpa_Entity {
     

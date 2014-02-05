@@ -17,3 +17,7 @@ repository jpa --entity ~.domain.Institution --interface ~.repo.InstitutionRepos
 repository jpa --entity ~.domain.Donation --interface ~.repository.DonationRepository
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-02-05 12:55:54
 service all --interfacePackage ~.service
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-02-05 13:27:05
+persistence setup --database MYSQL --provider HIBERNATE --userName root --databaseName doando_org --password MinhaSenha01
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-02-05 13:57:15
+logging setup --level DEBUG 

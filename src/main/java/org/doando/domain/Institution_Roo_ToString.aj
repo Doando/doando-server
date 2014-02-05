@@ -5,6 +5,7 @@ package org.doando.domain;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+import org.doando.domain.Institution;
 
 privileged aspect Institution_Roo_ToString {
     

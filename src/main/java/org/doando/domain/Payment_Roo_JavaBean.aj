@@ -4,6 +4,8 @@
 package org.doando.domain;
 
 import java.util.Date;
+import org.doando.domain.Payment;
+import org.doando.domain.PaymentStatus;
 
 privileged aspect Payment_Roo_JavaBean {
     

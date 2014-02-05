@@ -5,6 +5,7 @@ package org.doando.domain;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+import org.doando.domain.Payment;
 
 privileged aspect Payment_Roo_ToString {
     

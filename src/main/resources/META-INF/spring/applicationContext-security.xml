@@ -13,12 +13,16 @@
         <intercept-url pattern="/member/**" access="isAuthenticated()" />
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/login/**" access="permitAll" />
+        <intercept-url pattern="/utils/**" access="permitAll" />
         <intercept-url pattern="/**" access="isAuthenticated()" />
+        <remember-me key=")Os0Rqv/UAi4m!0fX7" />
     </http>
+	
     <!-- Configure Authentication mechanism -->
     <authentication-manager alias="authenticationManager">
         <!-- SHA-256 values can be produced using 'echo -n your_desired_password | sha256sum' (using normal *nix environments) -->
         <authentication-provider user-service-ref="personService">
+        <password-encoder hash="md5"></password-encoder>
         </authentication-provider>
 <!--         <authentication-provider> -->
 <!--             <password-encoder hash="sha-256" /> -->

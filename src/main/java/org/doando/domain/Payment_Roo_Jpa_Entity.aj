@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Version;
+import org.doando.domain.Payment;
 
 privileged aspect Payment_Roo_Jpa_Entity {
     

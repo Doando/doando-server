@@ -4,6 +4,10 @@
 package org.doando.domain;
 
 import java.math.BigDecimal;
+import org.doando.domain.Donation;
+import org.doando.domain.Institution;
+import org.doando.domain.Payment;
+import org.doando.domain.Person;
 
 privileged aspect Donation_Roo_JavaBean {
     

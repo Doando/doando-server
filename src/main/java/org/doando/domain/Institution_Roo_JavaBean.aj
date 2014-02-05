@@ -4,6 +4,8 @@
 package org.doando.domain;
 
 import java.util.Set;
+import org.doando.domain.Institution;
+import org.doando.domain.Person;
 
 privileged aspect Institution_Roo_JavaBean {
     

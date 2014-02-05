@@ -3,6 +3,8 @@
 
 package org.doando.domain;
 
+import org.doando.domain.AccessRole;
+import org.doando.domain.Person;
 
 privileged aspect Person_Roo_JavaBean {
     

@@ -5,6 +5,7 @@ package org.doando.domain;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+import org.doando.domain.Donation;
 
 privileged aspect Donation_Roo_ToString {
     
