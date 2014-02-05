@@ -1,0 +1,19 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-02-05 12:32:52
+project --topLevelPackage org.doando --projectName doando-server
+persistence setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT 
+entity jpa --class org.doando.domain.Person --activeRecord false
+entity jpa --class ~.domain.Institution --activeRecord false
+entity jpa --class ~.domain.Donation --activeRecord false
+entity jpa --class ~.domain.Payment --abstract --activeRecord false
+entity jpa --class ~.domain.Payment --abstract --activeRecord false --inheritanceType TABLE_PER_CLASS 
+entity jpa --class ~.domain.payment.Paypal --extends ~.domain.Payment
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-02-05 12:36:04
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-02-05 12:36:07
+web mvc setup
+security setup
+repository jpa --entity ~.domain.Person --interface ~.repository.PersonRepository
+repository jpa --entity ~.domain.Institution --interface ~.repo.InstitutionRepository
+repository jpa --entity ~.domain.Donation --interface ~.repository.DonationRepository
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-02-05 12:55:54
+service all --interfacePackage ~.service
