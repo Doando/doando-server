@@ -2,4 +2,4 @@ target/
 .classpath
 .settings/
 .project
-*database.properties
+src/main/resources/META-INF/spring/database.properties
